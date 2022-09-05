@@ -61,7 +61,6 @@ defineComponent({
   components: {IonHeader, IonToolbar, IonTitle, IonContent, IonPage}
 });
 
-
 const state = reactive({
   id: 2,
   todoList: [
@@ -72,8 +71,6 @@ const state = reactive({
   ],
   newTodoName: ''
 })
-
-// const toggleModal = () => modal.value = !modal.value;
 
 const addTodo = () => {
   if (state.newTodoName.length > 0) {
